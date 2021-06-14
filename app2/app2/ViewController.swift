@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  test1234
+//  app2
 //
-//  Created by skpark on 2021/06/12.
+//  Created by skpark on 2021/06/14.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.   test
+        // Do any additional setup after loading the view.
     }
 
 
