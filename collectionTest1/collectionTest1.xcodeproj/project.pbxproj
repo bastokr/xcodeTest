@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C27B4B068B4008476386B75 /* Pods_collectionTest1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9651C7616ACA64ECFBB041BB /* Pods_collectionTest1.framework */; };
 		8E7086A526A558F8009039FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086A426A558F8009039FB /* AppDelegate.swift */; };
 		8E7086A726A558F8009039FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086A626A558F8009039FB /* SceneDelegate.swift */; };
 		8E7086A926A558F8009039FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086A826A558F8009039FB /* ViewController.swift */; };
-		8E7086AC26A558F8009039FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7086AA26A558F8009039FB /* Main.storyboard */; };
 		8E7086AE26A558FB009039FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7086AD26A558FB009039FB /* Assets.xcassets */; };
 		8E7086B126A558FB009039FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7086AF26A558FB009039FB /* LaunchScreen.storyboard */; };
+		8E7086BE26A56A60009039FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7086BD26A56A60009039FB /* Main.storyboard */; };
+		8E7086C026A56FFF009039FB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086BF26A56FFF009039FB /* TableViewController.swift */; };
+		8E7086CB26A572E1009039FB /* STImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086C526A572E0009039FB /* STImageController.m */; };
+		8E7086CC26A572E1009039FB /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086C726A572E0009039FB /* STViewController.m */; };
+		8E7086CD26A572E1009039FB /* STListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086C926A572E1009039FB /* STListController.m */; };
+		8E7086D526A5733D009039FB /* CustomSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086CF26A5733C009039FB /* CustomSegmentControl.m */; };
+		8E7086D626A5733D009039FB /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086D126A5733D009039FB /* CustomCollectionView.m */; };
+		8E7086D726A5733D009039FB /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086D426A5733D009039FB /* CustomTableView.m */; };
+		8E7086DF26A57362009039FB /* UIScrollView+STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086DA26A57362009039FB /* UIScrollView+STRefresh.m */; };
+		8E7086E026A57362009039FB /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7086DD26A57362009039FB /* github.png */; };
+		8E7086E126A57362009039FB /* STRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086DE26A57362009039FB /* STRefreshHeader.m */; };
+		8E7086E326A57371009039FB /* onepiece_kiudai.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E7086E226A57371009039FB /* onepiece_kiudai.png */; };
+		8E7086E726A57390009039FB /* STTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7086E626A57390009039FB /* STTransitions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B6E226C5575DD8BC5DB3BDC /* Pods-collectionTest1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectionTest1.release.xcconfig"; path = "Target Support Files/Pods-collectionTest1/Pods-collectionTest1.release.xcconfig"; sourceTree = "<group>"; };
+		527249E2455704BCDA34EDD7 /* Pods-collectionTest1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectionTest1.debug.xcconfig"; path = "Target Support Files/Pods-collectionTest1/Pods-collectionTest1.debug.xcconfig"; sourceTree = "<group>"; };
 		8E7086A126A558F8009039FB /* collectionTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7086A426A558F8009039FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E7086A626A558F8009039FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8E7086A826A558F8009039FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E7086AB26A558F8009039FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E7086AD26A558FB009039FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E7086B026A558FB009039FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E7086B226A558FB009039FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7086BD26A56A60009039FB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8E7086BF26A56FFF009039FB /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8E7086C526A572E0009039FB /* STImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImageController.m; sourceTree = "<group>"; };
+		8E7086C626A572E0009039FB /* STViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STViewController.h; sourceTree = "<group>"; };
+		8E7086C726A572E0009039FB /* STViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
+		8E7086C826A572E1009039FB /* STListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STListController.h; sourceTree = "<group>"; };
+		8E7086C926A572E1009039FB /* STListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STListController.m; sourceTree = "<group>"; };
+		8E7086CA26A572E1009039FB /* STImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImageController.h; sourceTree = "<group>"; };
+		8E7086CF26A5733C009039FB /* CustomSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegmentControl.m; sourceTree = "<group>"; };
+		8E7086D026A5733C009039FB /* CustomSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegmentControl.h; sourceTree = "<group>"; };
+		8E7086D126A5733D009039FB /* CustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		8E7086D226A5733D009039FB /* CustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
+		8E7086D326A5733D009039FB /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		8E7086D426A5733D009039FB /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		8E7086D926A57361009039FB /* UIScrollView+STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+STRefresh.h"; sourceTree = "<group>"; };
+		8E7086DA26A57362009039FB /* UIScrollView+STRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+STRefresh.m"; sourceTree = "<group>"; };
+		8E7086DB26A57362009039FB /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
+		8E7086DC26A57362009039FB /* STRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefreshHeader.h; sourceTree = "<group>"; };
+		8E7086DD26A57362009039FB /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		8E7086DE26A57362009039FB /* STRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRefreshHeader.m; sourceTree = "<group>"; };
+		8E7086E226A57371009039FB /* onepiece_kiudai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onepiece_kiudai.png; sourceTree = "<group>"; };
+		8E7086E526A57390009039FB /* STTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTransitions.h; sourceTree = "<group>"; };
+		8E7086E626A57390009039FB /* STTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTransitions.m; sourceTree = "<group>"; };
+		9651C7616ACA64ECFBB041BB /* Pods_collectionTest1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_collectionTest1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C27B4B068B4008476386B75 /* Pods_collectionTest1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89E0F380B81CFD5F005290A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527249E2455704BCDA34EDD7 /* Pods-collectionTest1.debug.xcconfig */,
+				4B6E226C5575DD8BC5DB3BDC /* Pods-collectionTest1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E70869826A558F8009039FB = {
 			isa = PBXGroup;
 			children = (
 				8E7086A326A558F8009039FB /* collectionTest1 */,
 				8E7086A226A558F8009039FB /* Products */,
+				89E0F380B81CFD5F005290A2 /* Pods */,
+				C160D30A135507A64DBA09E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,85 @@
 		8E7086A326A558F8009039FB /* collectionTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				8E7086C326A572A5009039FB /* SwipeTableView */,
 				8E7086A426A558F8009039FB /* AppDelegate.swift */,
 				8E7086A626A558F8009039FB /* SceneDelegate.swift */,
 				8E7086A826A558F8009039FB /* ViewController.swift */,
-				8E7086AA26A558F8009039FB /* Main.storyboard */,
 				8E7086AD26A558FB009039FB /* Assets.xcassets */,
 				8E7086AF26A558FB009039FB /* LaunchScreen.storyboard */,
 				8E7086B226A558FB009039FB /* Info.plist */,
+				8E7086BD26A56A60009039FB /* Main.storyboard */,
+				8E7086BF26A56FFF009039FB /* TableViewController.swift */,
 			);
 			path = collectionTest1;
+			sourceTree = "<group>";
+		};
+		8E7086C326A572A5009039FB /* SwipeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8E7086E426A57376009039FB /* STTransition */,
+				8E7086E226A57371009039FB /* onepiece_kiudai.png */,
+				8E7086D826A5734F009039FB /* STRefresh */,
+				8E7086CE26A57326009039FB /* STView */,
+				8E7086C426A572B9009039FB /* STController */,
+			);
+			path = SwipeTableView;
+			sourceTree = "<group>";
+		};
+		8E7086C426A572B9009039FB /* STController */ = {
+			isa = PBXGroup;
+			children = (
+				8E7086CA26A572E1009039FB /* STImageController.h */,
+				8E7086C526A572E0009039FB /* STImageController.m */,
+				8E7086C826A572E1009039FB /* STListController.h */,
+				8E7086C926A572E1009039FB /* STListController.m */,
+				8E7086C626A572E0009039FB /* STViewController.h */,
+				8E7086C726A572E0009039FB /* STViewController.m */,
+			);
+			path = STController;
+			sourceTree = "<group>";
+		};
+		8E7086CE26A57326009039FB /* STView */ = {
+			isa = PBXGroup;
+			children = (
+				8E7086D226A5733D009039FB /* CustomCollectionView.h */,
+				8E7086D126A5733D009039FB /* CustomCollectionView.m */,
+				8E7086D026A5733C009039FB /* CustomSegmentControl.h */,
+				8E7086CF26A5733C009039FB /* CustomSegmentControl.m */,
+				8E7086D326A5733D009039FB /* CustomTableView.h */,
+				8E7086D426A5733D009039FB /* CustomTableView.m */,
+			);
+			path = STView;
+			sourceTree = "<group>";
+		};
+		8E7086D826A5734F009039FB /* STRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8E7086DD26A57362009039FB /* github.png */,
+				8E7086DB26A57362009039FB /* STRefresh.h */,
+				8E7086DC26A57362009039FB /* STRefreshHeader.h */,
+				8E7086DE26A57362009039FB /* STRefreshHeader.m */,
+				8E7086D926A57361009039FB /* UIScrollView+STRefresh.h */,
+				8E7086DA26A57362009039FB /* UIScrollView+STRefresh.m */,
+			);
+			path = STRefresh;
+			sourceTree = "<group>";
+		};
+		8E7086E426A57376009039FB /* STTransition */ = {
+			isa = PBXGroup;
+			children = (
+				8E7086E526A57390009039FB /* STTransitions.h */,
+				8E7086E626A57390009039FB /* STTransitions.m */,
+			);
+			path = STTransition;
+			sourceTree = "<group>";
+		};
+		C160D30A135507A64DBA09E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9651C7616ACA64ECFBB041BB /* Pods_collectionTest1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E7086B526A558FB009039FB /* Build configuration list for PBXNativeTarget "collectionTest1" */;
 			buildPhases = (
+				55583AD31F50FFC3D01EFC6F /* [CP] Check Pods Manifest.lock */,
 				8E70869D26A558F8009039FB /* Sources */,
 				8E70869E26A558F8009039FB /* Frameworks */,
 				8E70869F26A558F8009039FB /* Resources */,
+				5FF5B40FB06ED03365907F81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,35 +247,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E7086B126A558FB009039FB /* LaunchScreen.storyboard in Resources */,
+				8E7086E026A57362009039FB /* github.png in Resources */,
+				8E7086E326A57371009039FB /* onepiece_kiudai.png in Resources */,
+				8E7086BE26A56A60009039FB /* Main.storyboard in Resources */,
 				8E7086AE26A558FB009039FB /* Assets.xcassets in Resources */,
-				8E7086AC26A558F8009039FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55583AD31F50FFC3D01EFC6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-collectionTest1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF5B40FB06ED03365907F81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-collectionTest1/Pods-collectionTest1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-collectionTest1/Pods-collectionTest1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-collectionTest1/Pods-collectionTest1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E70869D26A558F8009039FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E7086D526A5733D009039FB /* CustomSegmentControl.m in Sources */,
 				8E7086A926A558F8009039FB /* ViewController.swift in Sources */,
+				8E7086E726A57390009039FB /* STTransitions.m in Sources */,
 				8E7086A526A558F8009039FB /* AppDelegate.swift in Sources */,
+				8E7086CB26A572E1009039FB /* STImageController.m in Sources */,
+				8E7086CC26A572E1009039FB /* STViewController.m in Sources */,
+				8E7086CD26A572E1009039FB /* STListController.m in Sources */,
+				8E7086DF26A57362009039FB /* UIScrollView+STRefresh.m in Sources */,
+				8E7086E126A57362009039FB /* STRefreshHeader.m in Sources */,
+				8E7086D726A5733D009039FB /* CustomTableView.m in Sources */,
+				8E7086D626A5733D009039FB /* CustomCollectionView.m in Sources */,
 				8E7086A726A558F8009039FB /* SceneDelegate.swift in Sources */,
+				8E7086C026A56FFF009039FB /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E7086AA26A558F8009039FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E7086AB26A558F8009039FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E7086AF26A558FB009039FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +451,7 @@
 		};
 		8E7086B626A558FB009039FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527249E2455704BCDA34EDD7 /* Pods-collectionTest1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +471,7 @@
 		};
 		8E7086B726A558FB009039FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6E226C5575DD8BC5DB3BDC /* Pods-collectionTest1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
